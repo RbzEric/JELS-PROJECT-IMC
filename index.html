@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="imc">
+        <h1>CALCULE IMC</h1>
+        <small>(Indice de la masse corporele)</small>
+    <div id="info">
+        <div class="taille">
+            <label for="height">Taille(en m):</label>
+            <input type="text" id="height" value=""> <br>
+            <small class="erreurA">Vous devez rentrer un nombre</small>
+        </div>
+        <div class="poids">
+            <label for="weight">Poids(en kg):</label>
+            <input type="text" id="weight" value=""> <br>
+            <small class="erreurB">Vous devez rentrer un nombre</small>
+    
+        </div>
+        
+        <button type="submit" id="submit">Calculer</button>
+        <div class="result" id="result"></div>
+        <div class="output"></div>
+        <button type="submit" id="restart">restart</button>
+    </div>
+        
+    
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
